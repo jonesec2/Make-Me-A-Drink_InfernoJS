@@ -1,5 +1,5 @@
 import {  Component } from 'inferno';
-import Logo from './logo';
+// import Logo from './logo';
 import './App.css';
 
 class App extends Component {
