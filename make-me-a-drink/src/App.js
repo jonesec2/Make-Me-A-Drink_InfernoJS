@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Logo width="80" height="80" />
+          {/* <Logo width="80" height="80" /> */}
           <p>Welcome to my freaking app</p>
           <p>
             Sup you duders?!
