@@ -1,0 +1,36 @@
+.nav {
+   position: relative;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   top: 0px;
+   overflow: hidden;
+   /* width: 100vw; */
+   display: flex;
+   align-items: center;
+   padding-top: 0.5rem;
+   padding-right: 1rem;
+   padding-bottom: 0.5rem;
+   padding-left: 1rem;
+   background-color: rgba(77,26,26) !important;
+}
+
+.title {
+   display: inline-block;
+   line-height: inherit;
+   white-space: nowrap;
+   color: white;
+}
+
+
+
+.lobster {
+   font-family: 'Lobster', cursive;
+   padding-top: 0.3rem !important;
+   padding-bottom: 0.3rem !important;
+   margin-right: 1rem !important;
+   font-size: 2rem !important;
+   margin-top: 0 !important;
+   margin-bottom: 0 !important;
+   font-weight: 500 !important;
+}

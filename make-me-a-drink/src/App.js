@@ -1,22 +1,22 @@
-import {  Component, render } from 'inferno';
-import { BrowserRouter, Route, Switch, Link } from 'inferno-router';
+import { Component, render } from 'inferno';
+import { BrowserRouter as Router, Route, Switch, Link } from 'inferno-router';
 // import Logo from './logo';
+import Navbar from "./Components/Navbar";
+import Drink from "./Pages/Drink";
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          {/* <Logo width="80" height="80" /> */}
-          <p>Welcome to my freaking app</p>
-          <p>
-            Sup you duders?!
-          </p>
-        </header>
-      </div>
-    );
-  }
-}
+export default function App() {
 
-export default App;
+   return (
+      <Router>
+         <div>
+            <Navbar />
+            <Switch>
+               <Route exact path={["/", "/drink"]}>
+                  <Drink />
+               </Route>
+            </Switch>
+         </div>
+      </Router>
+   );
+}
