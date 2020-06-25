@@ -24,7 +24,7 @@
    text-decoration: none;
 }
 
-.nav-list, .nav-item {
+.nav-list, .nav-item, .form {
    list-style-type: none;
    display: flex;
    padding-left: .5rem;
@@ -32,9 +32,13 @@
    margin-left: auto !important;
 }
 
+
 .nav-item {
-   text-decoration: none;
    list-style-type: none;
+}
+
+.nav-item a:hover {
+   background-color:rgb(211, 27, 27) !important;
 }
 
 .list-div {
@@ -50,4 +54,12 @@
    margin-top: 0 !important;
    margin-bottom: 0 !important;
    font-weight: 500 !important;
+}
+
+.vollkorn {
+   font-family: 'Vollkorn', serif;
+   font-size: 20px;
+   font-weight: 700 !important;
+   color: white;
+   text-decoration: none;
 }
