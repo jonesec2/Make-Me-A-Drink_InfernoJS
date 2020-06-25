@@ -1,4 +1,5 @@
-import {  Component } from 'inferno';
+import {  Component, render } from 'inferno';
+import { BrowserRouter, Route, Switch, Link } from 'inferno-router';
 // import Logo from './logo';
 import './App.css';
 
