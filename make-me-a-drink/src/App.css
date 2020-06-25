@@ -1,9 +1,13 @@
 .App {
   text-align: center;
   background-image:  url("img/ingoodspirits-8.jpg");
-  background-position: center;
+
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parent {
+   position: relative;
 }
 
 .App-header {

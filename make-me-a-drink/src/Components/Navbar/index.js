@@ -13,10 +13,13 @@ export default function Navbar() {
    return (
       <nav className="nav test">
          <Link id="id" className="title" to="/drink"><h4 className="lobster">Home</h4></Link>
-         <div>
-            <ul>
+         <div className="list-div">
+            <ul className="nav-list">
                <li>
                   <Link id="id2" className="nav-item" to="/saved"><a>Saved Drinks</a></Link>
+               </li>
+               <li>
+                  <button id="id3" className="nav-item"><a>Dark Mode</a></button>
                </li>
             </ul>
          </div>

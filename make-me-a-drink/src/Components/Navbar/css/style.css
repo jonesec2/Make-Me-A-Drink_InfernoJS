@@ -1,9 +1,11 @@
 .nav {
-   position: relative;
+   position: absolute;
    list-style-type: none;
    margin: 0;
    padding: 0;
-   top: 0px;
+   top: 0;
+   right: 0;
+   left: 0;
    overflow: hidden;
    display: flex;
    align-items: center;
@@ -22,7 +24,22 @@
    text-decoration: none;
 }
 
+.nav-list, .nav-item {
+   list-style-type: none;
+   display: flex;
+   padding-left: .5rem;
+   padding-right: .5rem;
+   margin-left: auto !important;
+}
 
+.nav-item {
+   text-decoration: none;
+   list-style-type: none;
+}
+
+.list-div {
+   margin-left: auto !important;
+}
 
 .lobster {
    font-family: 'Lobster', cursive;

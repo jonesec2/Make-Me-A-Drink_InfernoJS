@@ -9,7 +9,7 @@ export default function App() {
 
    return (
       <Router>
-         <div>
+         <div className="parent">
             <Navbar />
             <Switch>
                <Route exact path={["/", "/drink"]}>
