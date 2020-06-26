@@ -24,10 +24,10 @@ export default function Navbar() {
                   <Link id="id3" className="vollkorn"><a>Dark Mode</a></Link>
                </li>
                <form class="form">
-               <input className="vollkorn smooth" type="search" placeholder="Drink Search"
-                  aria-label="Mix Drink Search"/>
-                  <button className="vollkorn smooth" type="submit">Search</button>
-            </form>
+                  <input className="vollkorn smooth search" type="search" placeholder="Drink Search"
+                     aria-label="Mix Drink Search" />
+                  <button id="test" className="vollkorn search-btn smooth" type="submit">Search</button>
+               </form>
             </ul>
          </div>
       </nav>
